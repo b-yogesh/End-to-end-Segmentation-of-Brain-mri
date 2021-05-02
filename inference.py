@@ -38,6 +38,7 @@ def test():
     output = output.squeeze()
     print(output.shape)
 
+
 if __name__ == '__main__':
     test()
 
