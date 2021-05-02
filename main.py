@@ -29,5 +29,5 @@ def inference(data, model):
     print(output.shape)
     return output
 
-if __name__ == '__main__':
-    app.run(debug=True)
+# if __name__ == '__main__':
+#     app.run(debug=True)

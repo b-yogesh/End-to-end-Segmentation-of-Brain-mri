@@ -21,7 +21,7 @@ if __name__ == '__main__':
     data = {
         'data': item[0].numpy().tolist()
     }
-    url = 'http://localhost:5000/predict'
+    url = 'https://brain-segmap-app.herokuapp.com/predict'
     r = requests.post(url, json=data)
     r.text.strip()
     print(r.text.strip())
