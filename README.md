@@ -4,7 +4,7 @@ In this work, I develop a segmentation network using U-Net to segment the tumor 
 
 I use the dataset from Kaggle: https://www.kaggle.com/mateuszbuda/lgg-mri-segmentation
 
-I have written the UNET code with inspirations from various places on the internet.
+I have written the UNET code with inspirations from Aladdin's youtube video. (https://www.youtube.com/watch?v=IHq1t7NxS8k)
 
 I trained this network on my Laptop for 10 epochs using AdamW Optimizer with learning rate of 1e-4.
 
